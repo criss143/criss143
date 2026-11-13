@@ -24,11 +24,11 @@ Me gusta que todo sea rápido, seguro y que se vea increíble.
 
 ---
 
-### Proyectos
+### Mis proyectos
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td colspan="2" valign="top">
       <h4>KAREN · Asistente personal con IA</h4>
       Asistente de voz en español que escucha, piensa y responde en tiempo real. Panel futurista,
       bot privado de Telegram, contesta y hace llamadas, revisa correo y agenda, vigila mis páginas web
@@ -38,8 +38,11 @@ Me gusta que todo sea rápido, seguro y que se vea increíble.
       <img src="https://img.shields.io/badge/IA_local-04040c?style=flat-square&logo=ollama&logoColor=00f5ff"/>
       <img src="https://img.shields.io/badge/Reconocimiento_de_voz-04040c?style=flat-square&logo=openai&logoColor=00f5ff"/>
       <img src="https://img.shields.io/badge/FastAPI-04040c?style=flat-square&logo=fastapi&logoColor=00f5ff"/>
+      <img src="https://img.shields.io/badge/Telegram-04040c?style=flat-square&logo=telegram&logoColor=00f5ff"/>
       <br/><sub>Proyecto privado</sub>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h4>Criss Downloader · Bot de Telegram</h4>
       Bot para descargar videos y reels <b>públicos</b> de TikTok, YouTube, Facebook e Instagram en segundos,
@@ -50,8 +53,6 @@ Me gusta que todo sea rápido, seguro y que se vea increíble.
       <br/><br/>
       <a href="https://t.me/DevCriss_bot"><b>Abrir el bot →</b></a> &nbsp;·&nbsp; <a href="https://t.me/criss_downloads">Canal</a>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h4>itzcrissxit.com · Mi página</h4>
       Página personal con video de fondo, música, efectos 3D y animaciones. Corre en el borde de Cloudflare
@@ -61,16 +62,6 @@ Me gusta que todo sea rápido, seguro y que se vea increíble.
       <img src="https://img.shields.io/badge/HTML_·_CSS_·_JS-04040c?style=flat-square&logo=javascript&logoColor=00f5ff"/>
       <br/><br/>
       <a href="https://itzcrissxit.com"><b>Ver página →</b></a>
-    </td>
-    <td width="50%" valign="top">
-      <h4>Hector AWM · Página para creador de contenido</h4>
-      Diseño a medida para un streamer que hace LIVE todos los días: banner animado, fondo de luz en
-      movimiento, botón para seguirlo en TikTok, dominio propio y la misma protección de seguridad.
-      <br/><br/>
-      <img src="https://img.shields.io/badge/Diseño_a_medida-04040c?style=flat-square&logo=figma&logoColor=ff2d9b"/>
-      <img src="https://img.shields.io/badge/Canvas_animado-04040c?style=flat-square&logo=html5&logoColor=ff2d9b"/>
-      <br/><br/>
-      <a href="https://hectorawm.com"><b>Ver página →</b></a>
     </td>
   </tr>
   <tr>
@@ -91,6 +82,53 @@ Me gusta que todo sea rápido, seguro y que se vea increíble.
       <br/><br/>
       <img src="https://img.shields.io/badge/Chrome_Extension-04040c?style=flat-square&logo=googlechrome&logoColor=ff2d9b"/>
       <img src="https://img.shields.io/badge/JavaScript-04040c?style=flat-square&logo=javascript&logoColor=ff2d9b"/>
+    </td>
+  </tr>
+</table>
+
+### Páginas para clientes
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>ChinaFF · Streamer de Free Fire</h4>
+      Página de enlaces para un líder de comunidad gamer de Free Fire: lives, torneos con premios reales
+      y salas a diario, con todas sus redes (TikTok, Kick, YouTube y Discord) en un solo lugar.
+      <br/><br/>
+      <img src="https://img.shields.io/badge/GitHub_Pages-04040c?style=flat-square&logo=githubpages&logoColor=ff2d9b"/>
+      <img src="https://img.shields.io/badge/Gaming-04040c?style=flat-square&logo=riotgames&logoColor=ff2d9b"/>
+      <br/><br/>
+      <a href="https://chinaff-links.github.io/chinaff-links/"><b>Ver página →</b></a>
+    </td>
+    <td width="50%" valign="top">
+      <h4>Hector AWM · Creador de contenido</h4>
+      Diseño a medida para un streamer que hace LIVE todos los días: banner animado, fondo de luz en
+      movimiento, botón para seguirlo en TikTok, dominio propio y protección de seguridad.
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Diseño_a_medida-04040c?style=flat-square&logo=figma&logoColor=00f5ff"/>
+      <img src="https://img.shields.io/badge/Canvas_animado-04040c?style=flat-square&logo=html5&logoColor=00f5ff"/>
+      <br/><br/>
+      <a href="https://hectorawm.com"><b>Ver página →</b></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>dayxit · Página de enlaces</h4>
+      Página personal con todos los enlaces y redes de @dayxit, con dominio propio y publicada en Cloudflare.
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Cloudflare-04040c?style=flat-square&logo=cloudflare&logoColor=00f5ff"/>
+      <img src="https://img.shields.io/badge/Dominio_propio-04040c?style=flat-square&logo=googlechrome&logoColor=00f5ff"/>
+      <br/><br/>
+      <a href="https://dayxit.com"><b>Ver página →</b></a>
+    </td>
+    <td width="50%" valign="top">
+      <h4>Vida Saludable · Tienda de suplementos</h4>
+      Tienda en línea de vitaminas y suplementos en Perú: catálogo cuidado, diseño limpio y dominio propio.
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Tienda_web-04040c?style=flat-square&logo=cloudflare&logoColor=ff2d9b"/>
+      <img src="https://img.shields.io/badge/Perú-04040c?style=flat-square&logo=googlemaps&logoColor=ff2d9b"/>
+      <br/><br/>
+      <a href="https://vidasaludablepe.com"><b>Ver tienda →</b></a>
     </td>
   </tr>
 </table>
