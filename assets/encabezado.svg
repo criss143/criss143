@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="fondo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#04040c"/>
+      <stop offset="1" stop-color="#0b0b1e"/>
+    </linearGradient>
+    <linearGradient id="texto" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00f5ff">
+        <animate attributeName="stop-color" values="#00f5ff;#ff2d9b;#00f5ff" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset=".5" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ff2d9b">
+        <animate attributeName="stop-color" values="#ff2d9b;#00f5ff;#ff2d9b" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <radialGradient id="luzC" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#00f5ff" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#00f5ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="luzR" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ff2d9b" stop-opacity=".30"/>
+      <stop offset="1" stop-color="#ff2d9b" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="brillo" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="marco"><rect width="1200" height="300" rx="22"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#marco)">
+    <rect width="1200" height="300" fill="url(#fondo)"/>
+    <ellipse cx="200" cy="60" rx="320" ry="200" fill="url(#luzC)">
+      <animate attributeName="cx" values="200;320;200" dur="12s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="1000" cy="250" rx="340" ry="210" fill="url(#luzR)">
+      <animate attributeName="cx" values="1000;880;1000" dur="14s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- ondas de luz -->
+    <path d="M0 230 C 200 170, 400 290, 600 220 S 1000 160, 1200 230" fill="none" stroke="#00f5ff" stroke-opacity=".35" stroke-width="1.5">
+      <animate attributeName="d" dur="9s" repeatCount="indefinite"
+        values="M0 230 C 200 170, 400 290, 600 220 S 1000 160, 1200 230;
+                M0 220 C 200 280, 400 180, 600 240 S 1000 280, 1200 210;
+                M0 230 C 200 170, 400 290, 600 220 S 1000 160, 1200 230"/>
+    </path>
+    <path d="M0 250 C 250 300, 450 190, 650 250 S 1000 300, 1200 245" fill="none" stroke="#ff2d9b" stroke-opacity=".30" stroke-width="1.5">
+      <animate attributeName="d" dur="11s" repeatCount="indefinite"
+        values="M0 250 C 250 300, 450 190, 650 250 S 1000 300, 1200 245;
+                M0 240 C 250 190, 450 300, 650 230 S 1000 190, 1200 255;
+                M0 250 C 250 300, 450 190, 650 250 S 1000 300, 1200 245"/>
+    </path>
+
+    <!-- partículas -->
+    <g fill="#00f5ff">
+      <circle cx="120" cy="250" r="2"><animate attributeName="cy" values="300;-10" dur="7s" repeatCount="indefinite"/></circle>
+      <circle cx="380" cy="250" r="1.6"><animate attributeName="cy" values="300;-10" dur="9s" begin="2s" repeatCount="indefinite"/></circle>
+      <circle cx="860" cy="250" r="2"><animate attributeName="cy" values="300;-10" dur="8s" begin="1s" repeatCount="indefinite"/></circle>
+    </g>
+    <g fill="#ff2d9b">
+      <circle cx="640" cy="250" r="1.8"><animate attributeName="cy" values="300;-10" dur="10s" begin="3s" repeatCount="indefinite"/></circle>
+      <circle cx="1080" cy="250" r="1.6"><animate attributeName="cy" values="300;-10" dur="7.5s" begin="4s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <text x="600" y="150" text-anchor="middle" font-family="Verdana, 'Segoe UI', Arial, sans-serif" font-weight="900"
+          font-size="78" letter-spacing="10" fill="url(#texto)" filter="url(#brillo)">ITZCRISSXIT</text>
+    <text x="600" y="205" text-anchor="middle" font-family="'Courier New', monospace" font-size="22" letter-spacing="5" fill="#9fb3ff">
+      DESARROLLADOR WEB · BOTS · IA · CREADOR DE CONTENIDO
+    </text>
+    <rect x="450" y="225" width="300" height="2" fill="url(#texto)">
+      <animate attributeName="width" values="0;300;300" dur="2.2s" fill="freeze"/>
+      <animate attributeName="x" values="600;450;450" dur="2.2s" fill="freeze"/>
+    </rect>
+  </g>
+  <rect x=".75" y=".75" width="1198.5" height="298.5" rx="22" fill="none" stroke="#00f5ff" stroke-opacity=".25" stroke-width="1.5"/>
+</svg>
