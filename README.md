@@ -11,18 +11,18 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/📍_Cleburne,_Texas-04040c?style=flat-square&labelColor=04040c"/>
   <img src="https://img.shields.io/badge/🗣️_Bilingüe_ES_·_EN-04040c?style=flat-square&labelColor=04040c"/>
   <img src="https://img.shields.io/badge/💼_Disponible_para_proyectos-36e36b?style=flat-square&labelColor=04040c"/>
+  <img src="https://img.shields.io/badge/🌎_Trabajo_remoto-04040c?style=flat-square&labelColor=04040c"/>
 </p>
 
 ---
 
 ### Sobre mí · About me
 
-🇪🇸 Desarrollador web y creador de contenido en **Cleburne, Texas**. Diseño experiencias digitales que se sienten vivas: páginas con animación y personalidad, bots que trabajan solos y una asistente con **inteligencia artificial que corre 100% en mi propia PC**. Me gusta que todo sea rápido, seguro y que se vea increíble.
+🇪🇸 Desarrollador web y creador de contenido. Diseño experiencias digitales que se sienten vivas: páginas con animación y personalidad, bots que trabajan solos y una asistente con **inteligencia artificial que corre 100% en mi propia PC**. Me gusta que todo sea rápido, seguro y que se vea increíble.
 
-🇬🇧 Full-stack developer and content creator based in **Cleburne, TX**. I build custom websites, online stores, Telegram bots and a **self-hosted AI voice assistant**. Bilingual (Spanish / English), detail-oriented and fast.
+🇬🇧 Full-stack developer and content creator. I build custom websites, online stores, Telegram bots and a **self-hosted AI voice assistant**. Bilingual (Spanish / English), detail-oriented and fast.
 
 - **Ahora mismo / Currently:** mejorando a **KAREN**, mi asistente personal con IA.
 - **Hago / I build:** páginas web a medida, tiendas en línea, bots de Telegram y automatizaciones con IA.
